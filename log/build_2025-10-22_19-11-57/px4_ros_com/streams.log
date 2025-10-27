@@ -1,0 +1,142 @@
+[0.008s] Invoking command in '/home/gianni/SD/px4_ros2_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/gianni/SD/px4_ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gianni/SD/px4_ros2_ws/install/px4_msgs:/home/gianni/SD/ros_gz_ws/install/test_ros_gz_bridge:/home/gianni/SD/ros_gz_ws/install/ros_gz:/home/gianni/SD/ros_gz_ws/install/ros_gz_sim_demos:/home/gianni/SD/ros_gz_ws/install/ros_gz_sim:/home/gianni/SD/ros_gz_ws/install/ros_gz_image:/home/gianni/SD/ros_gz_ws/install/ros_gz_bridge:/home/gianni/SD/ros_gz_ws/install/ros_gz_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/gianni/SD/px4_ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gianni/SD/px4_ros2_ws/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/gianni/SD/px4_ros2_ws/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/gianni/SD/px4_ros2_ws/install/px4_ros_com
+[0.076s] -- The C compiler identification is GNU 13.3.0
+[0.130s] -- The CXX compiler identification is GNU 13.3.0
+[0.148s] -- Detecting C compiler ABI info
+[0.255s] -- Detecting C compiler ABI info - done
+[0.267s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.267s] -- Detecting C compile features
+[0.267s] -- Detecting C compile features - done
+[0.279s] -- Detecting CXX compiler ABI info
+[0.393s] -- Detecting CXX compiler ABI info - done
+[0.402s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.402s] -- Detecting CXX compile features
+[0.402s] -- Detecting CXX compile features - done
+[0.405s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.526s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.625s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.658s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.670s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.684s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.699s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.714s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.722s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.724s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.751s] -- Found px4_msgs: 2.0.1 (/home/gianni/SD/px4_ros2_ws/install/px4_msgs/share/px4_msgs/cmake)
+[0.778s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.817s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.820s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.899s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.917s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.940s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.007s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.029s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.037s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.145s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.148s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.149s] -- Configured cppcheck include dirs: /home/gianni/SD/px4_ros2_ws/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/gianni/SD/px4_ros2_ws/src/px4_ros_com/include/px4_ros_com>
+[1.149s] -- Configured cppcheck exclude dirs and/or files: 
+[1.151s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.152s] -- Configured cpplint exclude dirs and/or files: 
+[1.152s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.152s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.154s] -- Added test 'lint_cmake' to check CMake code style
+[1.155s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.157s] -- Added test 'uncrustify' to check C / C++ code style
+[1.157s] -- Configured uncrustify additional arguments: 
+[1.158s] -- Added test 'xmllint' to check XML markup files
+[1.160s] -- Configuring done (1.1s)
+[1.178s] -- Generating done (0.0s)
+[1.184s] -- Build files have been written to: /home/gianni/SD/px4_ros2_ws/build/px4_ros_com
+[1.193s] Invoked command in '/home/gianni/SD/px4_ros2_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/gianni/SD/px4_ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gianni/SD/px4_ros2_ws/install/px4_msgs:/home/gianni/SD/ros_gz_ws/install/test_ros_gz_bridge:/home/gianni/SD/ros_gz_ws/install/ros_gz:/home/gianni/SD/ros_gz_ws/install/ros_gz_sim_demos:/home/gianni/SD/ros_gz_ws/install/ros_gz_sim:/home/gianni/SD/ros_gz_ws/install/ros_gz_image:/home/gianni/SD/ros_gz_ws/install/ros_gz_bridge:/home/gianni/SD/ros_gz_ws/install/ros_gz_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/gianni/SD/px4_ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gianni/SD/px4_ros2_ws/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/gianni/SD/px4_ros2_ws/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/gianni/SD/px4_ros2_ws/install/px4_ros_com
+[1.194s] Invoking command in '/home/gianni/SD/px4_ros2_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/gianni/SD/px4_ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gianni/SD/px4_ros2_ws/install/px4_msgs:/home/gianni/SD/ros_gz_ws/install/test_ros_gz_bridge:/home/gianni/SD/ros_gz_ws/install/ros_gz:/home/gianni/SD/ros_gz_ws/install/ros_gz_sim_demos:/home/gianni/SD/ros_gz_ws/install/ros_gz_sim:/home/gianni/SD/ros_gz_ws/install/ros_gz_image:/home/gianni/SD/ros_gz_ws/install/ros_gz_bridge:/home/gianni/SD/ros_gz_ws/install/ros_gz_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/gianni/SD/px4_ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gianni/SD/px4_ros2_ws/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gianni/SD/px4_ros2_ws/build/px4_ros_com -- -j20 -l20
+[1.242s] [  8%] [32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o[0m
+[1.242s] [ 16%] [32mBuilding CXX object CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o[0m
+[1.242s] [ 25%] [32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o[0m
+[1.248s] [ 33%] Built target ament_cmake_python_copy_px4_ros_com
+[1.248s] [ 33%] [32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o[0m
+[1.249s] [ 41%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[1.250s] [ 50%] [32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o[0m
+[1.399s] running egg_info
+[1.400s] creating px4_ros_com.egg-info
+[1.412s] writing px4_ros_com.egg-info/PKG-INFO
+[1.413s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[1.413s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[1.413s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.455s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.456s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.505s] [ 50%] Built target ament_cmake_python_build_px4_ros_com_egg
+[8.373s] [ 58%] [32m[1mLinking CXX executable debug_vect_advertiser[0m
+[9.165s] [ 58%] Built target debug_vect_advertiser
+[13.465s] [ 66%] [32m[1mLinking CXX executable offboard_control_srv[0m
+[14.232s] [ 66%] Built target offboard_control_srv
+[14.282s] [ 75%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[14.357s] [ 83%] [32m[1mLinking CXX executable offboard_control[0m
+[14.758s] [ 83%] Built target offboard_control
+[14.892s] [ 83%] Built target sensor_combined_listener
+[15.676s] [ 91%] [32m[1mLinking CXX shared library libframe_transforms.so[0m
+[16.069s] [ 91%] Built target frame_transforms
+[18.506s] [100%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[19.052s] [100%] Built target vehicle_gps_position_listener
+[19.112s] Invoked command in '/home/gianni/SD/px4_ros2_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/gianni/SD/px4_ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gianni/SD/px4_ros2_ws/install/px4_msgs:/home/gianni/SD/ros_gz_ws/install/test_ros_gz_bridge:/home/gianni/SD/ros_gz_ws/install/ros_gz:/home/gianni/SD/ros_gz_ws/install/ros_gz_sim_demos:/home/gianni/SD/ros_gz_ws/install/ros_gz_sim:/home/gianni/SD/ros_gz_ws/install/ros_gz_image:/home/gianni/SD/ros_gz_ws/install/ros_gz_bridge:/home/gianni/SD/ros_gz_ws/install/ros_gz_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/gianni/SD/px4_ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gianni/SD/px4_ros2_ws/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gianni/SD/px4_ros2_ws/build/px4_ros_com -- -j20 -l20
+[19.148s] Invoking command in '/home/gianni/SD/px4_ros2_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/gianni/SD/px4_ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gianni/SD/px4_ros2_ws/install/px4_msgs:/home/gianni/SD/ros_gz_ws/install/test_ros_gz_bridge:/home/gianni/SD/ros_gz_ws/install/ros_gz:/home/gianni/SD/ros_gz_ws/install/ros_gz_sim_demos:/home/gianni/SD/ros_gz_ws/install/ros_gz_sim:/home/gianni/SD/ros_gz_ws/install/ros_gz_image:/home/gianni/SD/ros_gz_ws/install/ros_gz_bridge:/home/gianni/SD/ros_gz_ws/install/ros_gz_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/gianni/SD/px4_ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gianni/SD/px4_ros2_ws/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gianni/SD/px4_ros2_ws/build/px4_ros_com
+[19.163s] -- Install configuration: ""
+[19.164s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[19.169s] -- Set non-toolchain portion of runtime path of "/home/gianni/SD/px4_ros2_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener" to ""
+[19.170s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[19.174s] -- Set non-toolchain portion of runtime path of "/home/gianni/SD/px4_ros2_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener" to ""
+[19.175s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[19.177s] -- Set non-toolchain portion of runtime path of "/home/gianni/SD/px4_ros2_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser" to ""
+[19.180s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[19.180s] -- Set non-toolchain portion of runtime path of "/home/gianni/SD/px4_ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""
+[19.181s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[19.184s] -- Set non-toolchain portion of runtime path of "/home/gianni/SD/px4_ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv" to ""
+[19.184s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[19.185s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[19.185s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/include/px4_ros_com
+[19.185s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[19.186s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/lib/libframe_transforms.so
+[19.191s] -- Set non-toolchain portion of runtime path of "/home/gianni/SD/px4_ros2_ws/install/px4_ros_com/lib/libframe_transforms.so" to ""
+[19.191s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com//launch
+[19.192s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[19.194s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[19.195s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com//test
+[19.195s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[19.196s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[19.196s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[19.196s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[19.196s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[19.198s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[19.200s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info
+[19.200s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/dependency_links.txt
+[19.200s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/SOURCES.txt
+[19.202s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/top_level.txt
+[19.205s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com-0.1.0-py3.12.egg-info/PKG-INFO
+[19.205s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com
+[19.205s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com/module_to_import.py
+[19.205s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com/__init__.py
+[19.315s] Listing '/home/gianni/SD/px4_ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com'...
+[19.315s] Compiling '/home/gianni/SD/px4_ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com/__init__.py'...
+[19.315s] Compiling '/home/gianni/SD/px4_ros2_ws/install/px4_ros_com/lib/python3.12/site-packages/px4_ros_com/module_to_import.py'...
+[19.326s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[19.331s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[19.332s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[19.333s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[19.334s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[19.335s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[19.336s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[19.336s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[19.337s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[19.337s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[19.337s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[19.338s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/package.dsv
+[19.341s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[19.341s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[19.341s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[19.342s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.342s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[19.345s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.345s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[19.345s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[19.345s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[19.345s] -- Installing: /home/gianni/SD/px4_ros2_ws/install/px4_ros_com/share/px4_ros_com/package.xml
+[19.357s] Invoked command in '/home/gianni/SD/px4_ros2_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/gianni/SD/px4_ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gianni/SD/px4_ros2_ws/install/px4_msgs:/home/gianni/SD/ros_gz_ws/install/test_ros_gz_bridge:/home/gianni/SD/ros_gz_ws/install/ros_gz:/home/gianni/SD/ros_gz_ws/install/ros_gz_sim_demos:/home/gianni/SD/ros_gz_ws/install/ros_gz_sim:/home/gianni/SD/ros_gz_ws/install/ros_gz_image:/home/gianni/SD/ros_gz_ws/install/ros_gz_bridge:/home/gianni/SD/ros_gz_ws/install/ros_gz_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/gianni/SD/px4_ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gianni/SD/px4_ros2_ws/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gianni/SD/px4_ros2_ws/build/px4_ros_com

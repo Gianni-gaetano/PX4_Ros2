@@ -1,0 +1,10 @@
+/home/gianni/SD/px4_ros2_ws/build/autonocat_mission_cpp/CMakeFiles/uninstall.dir
+/home/gianni/SD/px4_ros2_ws/build/autonocat_mission_cpp/CMakeFiles/autonocat_mission_cpp_uninstall.dir
+/home/gianni/SD/px4_ros2_ws/build/autonocat_mission_cpp/CMakeFiles/autonocat_mission.dir
+/home/gianni/SD/px4_ros2_ws/build/autonocat_mission_cpp/CMakeFiles/test.dir
+/home/gianni/SD/px4_ros2_ws/build/autonocat_mission_cpp/CMakeFiles/edit_cache.dir
+/home/gianni/SD/px4_ros2_ws/build/autonocat_mission_cpp/CMakeFiles/rebuild_cache.dir
+/home/gianni/SD/px4_ros2_ws/build/autonocat_mission_cpp/CMakeFiles/list_install_components.dir
+/home/gianni/SD/px4_ros2_ws/build/autonocat_mission_cpp/CMakeFiles/install.dir
+/home/gianni/SD/px4_ros2_ws/build/autonocat_mission_cpp/CMakeFiles/install/local.dir
+/home/gianni/SD/px4_ros2_ws/build/autonocat_mission_cpp/CMakeFiles/install/strip.dir

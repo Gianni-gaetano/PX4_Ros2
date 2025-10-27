@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-831227b72d927e08f8b1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "example_executor_with_multiple_modes_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "example_executor_with_multiple_modes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_executor_with_multiple_modes-0b7020d3b0fe05822c2e.json",
+					"name" : "example_executor_with_multiple_modes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_executor_with_multiple_modes_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_executor_with_multiple_modes_cpp_uninstall-907d50623c58c98c1809.json",
+					"name" : "example_executor_with_multiple_modes_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b74d3b6055b2949cb78b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/gianni/SD/px4_ros2_ws/build/example_executor_with_multiple_modes_cpp",
+		"source" : "/home/gianni/SD/px4_ros2_ws/src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

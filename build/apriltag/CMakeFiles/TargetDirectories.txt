@@ -1,0 +1,11 @@
+/home/gianni/SD/px4_ros2_ws/build/apriltag/CMakeFiles/apriltag.dir
+/home/gianni/SD/px4_ros2_ws/build/apriltag/CMakeFiles/apriltag_py_docstrings.dir
+/home/gianni/SD/px4_ros2_ws/build/apriltag/CMakeFiles/apriltag.cpython-312-x86_64-linux-gnu.dir
+/home/gianni/SD/px4_ros2_ws/build/apriltag/CMakeFiles/apriltag_demo.dir
+/home/gianni/SD/px4_ros2_ws/build/apriltag/CMakeFiles/opencv_demo.dir
+/home/gianni/SD/px4_ros2_ws/build/apriltag/CMakeFiles/edit_cache.dir
+/home/gianni/SD/px4_ros2_ws/build/apriltag/CMakeFiles/rebuild_cache.dir
+/home/gianni/SD/px4_ros2_ws/build/apriltag/CMakeFiles/list_install_components.dir
+/home/gianni/SD/px4_ros2_ws/build/apriltag/CMakeFiles/install.dir
+/home/gianni/SD/px4_ros2_ws/build/apriltag/CMakeFiles/install/local.dir
+/home/gianni/SD/px4_ros2_ws/build/apriltag/CMakeFiles/install/strip.dir

@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/autonocat_mission.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable autonocat_mission[0m
+[100%] Built target autonocat_mission
+-- Install configuration: ""
+-- Installing: /home/gianni/SD/px4_ros2_ws/install/autonocat_mission_cpp/lib/autonocat_mission_cpp/autonocat_mission
+-- Set non-toolchain portion of runtime path of "/home/gianni/SD/px4_ros2_ws/install/autonocat_mission_cpp/lib/autonocat_mission_cpp/autonocat_mission" to ""
+-- Up-to-date: /home/gianni/SD/px4_ros2_ws/install/autonocat_mission_cpp/share/ament_index/resource_index/package_run_dependencies/autonocat_mission_cpp
+-- Up-to-date: /home/gianni/SD/px4_ros2_ws/install/autonocat_mission_cpp/share/ament_index/resource_index/parent_prefix_path/autonocat_mission_cpp
+-- Up-to-date: /home/gianni/SD/px4_ros2_ws/install/autonocat_mission_cpp/share/autonocat_mission_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/gianni/SD/px4_ros2_ws/install/autonocat_mission_cpp/share/autonocat_mission_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/gianni/SD/px4_ros2_ws/install/autonocat_mission_cpp/share/autonocat_mission_cpp/environment/path.sh
+-- Up-to-date: /home/gianni/SD/px4_ros2_ws/install/autonocat_mission_cpp/share/autonocat_mission_cpp/environment/path.dsv
+-- Up-to-date: /home/gianni/SD/px4_ros2_ws/install/autonocat_mission_cpp/share/autonocat_mission_cpp/local_setup.bash
+-- Up-to-date: /home/gianni/SD/px4_ros2_ws/install/autonocat_mission_cpp/share/autonocat_mission_cpp/local_setup.sh
+-- Up-to-date: /home/gianni/SD/px4_ros2_ws/install/autonocat_mission_cpp/share/autonocat_mission_cpp/local_setup.zsh
+-- Up-to-date: /home/gianni/SD/px4_ros2_ws/install/autonocat_mission_cpp/share/autonocat_mission_cpp/local_setup.dsv
+-- Installing: /home/gianni/SD/px4_ros2_ws/install/autonocat_mission_cpp/share/autonocat_mission_cpp/package.dsv
+-- Up-to-date: /home/gianni/SD/px4_ros2_ws/install/autonocat_mission_cpp/share/ament_index/resource_index/packages/autonocat_mission_cpp
+-- Up-to-date: /home/gianni/SD/px4_ros2_ws/install/autonocat_mission_cpp/share/autonocat_mission_cpp/cmake/autonocat_mission_cppConfig.cmake
+-- Up-to-date: /home/gianni/SD/px4_ros2_ws/install/autonocat_mission_cpp/share/autonocat_mission_cpp/cmake/autonocat_mission_cppConfig-version.cmake
+-- Up-to-date: /home/gianni/SD/px4_ros2_ws/install/autonocat_mission_cpp/share/autonocat_mission_cpp/package.xml
